@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'each_view.dart';
 
 class BottomAppBarDemo extends StatefulWidget {
@@ -24,7 +25,7 @@ class _BottomAppBarDemoState extends State<BottomAppBarDemo> {
           // Navigator.of(context).push(MaterialPageRoute(builder:(Builder context){
           //   return EachView('New Page');
           // }));
-          Navigator.of(context).push(MaterialPageRoute(builder:(BuildContext context){
+          Navigator.of(context).push(CupertinoPageRoute(builder:(BuildContext context){
             return EachView('New Page');
           }));
         },
